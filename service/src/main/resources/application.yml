@@ -1,0 +1,17 @@
+jwt:
+  config:
+    key: maishuren
+    ttl: 1200000
+spring:
+  application:
+    name: user-service
+server:
+  port: 8888
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:6868/eureka/
+
+
+
